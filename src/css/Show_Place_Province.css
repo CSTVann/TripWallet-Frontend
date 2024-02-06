@@ -1,0 +1,85 @@
+.caption-category
+{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.primary
+{
+    background-color: #1a1a1a;
+    margin: 0.3em 10em 0.5em 1em;
+    border-radius: 8px;
+}
+.primary a
+{
+    color: #f7f7f7;
+}
+
+
+@media screen and (max-width: 379px) {
+    .primary a
+    {
+        font-size: 12px;
+    }
+    .card-text
+    {
+        font-size: 14px;
+    }
+    .card-title
+    {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .primary a
+    {
+        font-size: 5px;
+    }
+}
+
+.nav-pills
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-pills .nav-link.active
+{
+    background-color: #2e3a32;
+}
+
+#botton1
+{
+    color: #f7f7f7;
+}
+.nav-link{
+    color: #1a1a1a;
+}
+
+.Thank-You
+{
+    margin-top: 5em;
+    margin-bottom: 0;
+    background-color: #1a1a1a;
+    color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.add
+{
+    width: 5em;
+    display: flex;
+    justify-content: center;
+}
+.spanadd
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3px;
+}

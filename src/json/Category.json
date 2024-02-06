@@ -1,0 +1,61 @@
+{
+    "battambang" : {
+        "place" : [
+            {
+                "id" : "1",
+                "title" : "Resort",
+                "budget" : "20",
+                "infor" : "The most beautiful place in Battambang city",
+                "image" : "https://lh3.googleusercontent.com/p/AF1QipNs-Zg-Y0oFihliMF3FnNQz978UIRZOJJb9au2a=s1360-w1360-h1020"
+            },
+            {
+                "id" : "2",
+                "title" : "City",
+                "budget" : "20",
+                "infor" : "The most beautiful place in Battambang city",
+                "image" : "img/angkor_wat.jpg"
+            },
+            {
+                "id" : "3",
+                "title" : "Mountain",
+                "budget" : "20",
+                "infor" : "The most beautiful place in Battambang city",
+                "image" : "../img/angkor_wat.jpg"
+            },
+            {
+                "id" : "4",
+                "title" : "Forest",
+                "budget" : "50",
+                "infor" : "The most beautiful place in Battambang city",
+                "image" : "img/angkor_wat.jpg"
+            },
+            {
+                "id" : "4",
+                "title" : "Forest",
+                "budget" : "50",
+                "infor" : "The most beautiful place in Battambang city",
+                "image" : "img/angkor_wat.jpg"
+            },
+            {
+                "id" : "4",
+                "title" : "Forest",
+                "budget" : "50",
+                "infor" : "The most beautiful place in Battambang city",
+                "image" : "img/angkor_wat.jpg"
+            },
+            {
+                "id" : "4",
+                "title" : "Forest",
+                "budget" : "50",
+                "infor" : "The most beautiful place in Battambang city",
+                "image" : "img/angkor_wat.jpg"
+            }
+        ],
+        "accommodation" : [
+
+        ],
+        "transportation" : [
+            
+        ]
+    }
+}

@@ -1,0 +1,213 @@
+.container-top-footer
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-top-footer p
+{
+    width: 50%;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+@media screen and (max-width: 999px) {
+    .container-top-footer p
+    {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 499px) {
+    .container-top-footer p
+    {
+        width: 95%;
+    }
+}
+
+.copyright
+{
+    padding: 0 0 1em 2em;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.copyright span a
+{
+    color: #22C55E;
+}
+
+.container-top-footer div a
+{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.nest-footer
+{
+    background: #000;
+    width: 100%;
+    color: aliceblue;
+}
+.nest-footer-row
+{
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding-top: 2em;
+}
+.nest-footer-col
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.nest-footer-row
+{
+    width: 100%;
+}
+
+
+
+.nest-icon-footer
+{
+    display: flex;
+    justify-content: start;
+}
+.nest-icon-footer a
+{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.icon-footer:hover,
+.icon-footer:focus{
+    width:25px;
+    height: 25px;
+}
+.icon-footer {
+    /* Set the initial size */
+    width: 20px;
+    height: 20px;
+  
+    /* Apply a transition for the width and height properties */
+    transition: width 0.2s ease, height 0.2s ease;
+}
+
+@media screen and (max-width:899px) and (min-width: 748px) {
+    .nest-footer-col h3
+    {
+        font-size: 25px;
+    }
+    .nest-footer-col p
+    {
+        font-size: 12px;
+    }
+    .icon-footer
+    {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width:747px) and (min-width: 605px) {
+    .nest-social
+    {
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width:604px) and (min-width: 466px) {
+    .nest-social , .nest-contact
+    {
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width:465px) and (min-width: 366px) {
+    .nest-social , .nest-contact
+    {
+        margin-top: 2em;
+    }
+}
+
+/* ======= */
+
+
+.hr-footer
+{
+    border: solid 1px white;
+}
+
+.footer-least-one
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+    margin-right: 1em;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1em;
+}
+.nest-developer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nest-a-developer
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.nest-developer a,
+.nest-developer p5
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #7a67bd 0%,
+    #9557d8 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+@media screen and (max-width: 650px) {
+    .nest-developer p5
+    {
+        font-size: 12px;
+    }
+    .nest-a-developer a img
+    {
+        height: 15px;
+        width: 15px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .nest-developer p5
+    {
+        font-size: 9px;
+    }
+    .nest-a-developer a img
+    {
+        height: 11px;
+        width: 11px;
+    }
+}

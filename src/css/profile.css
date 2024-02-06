@@ -1,0 +1,35 @@
+.second-popup
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.image-of-profile
+{
+    width: 3em;
+    height: 3em;
+    border-radius: 360px;
+}
+.username
+{
+    padding-top: 3px;
+    font-size: 18px;
+}
+.close-opup-btn
+{
+    margin-bottom: 6px;
+}
+.popup-inner button
+{
+    border-radius: 12px;
+    background-color: #2E3A32;
+    color: #FFF;
+    width: 6em;
+}
+.email
+{
+    font-size: 9px;
+}

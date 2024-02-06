@@ -1,0 +1,261 @@
+.active-menu {
+    border-radius: 25px;
+    border: 3px solid #cccccc;
+    background-color: #2e3a32;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+}
+.active-menu-span {
+    color: white;
+    font-weight: 500;
+}
+.menu-container {
+    padding: 0 48px;
+}
+.border-header
+{
+    border: solid 2px #cccccc;
+    border-radius: 10px;
+    border-style: dashed;
+    margin: 16px;
+    background-color: #ffffff;
+}
+.nav-LOGIN-REGISTER
+{
+    background-color: #2e3a32;
+    border-radius: 6px;
+}
+
+.nav-LOGGED-IN
+{
+    background-color: #d6d6d6;
+    border-radius: 12px;
+}
+.nav-LOGGED-IN:hover
+{
+    background-color: #2e3a32;
+    color: white;
+}
+
+.nav-item > .nav-link > .login
+{
+    color: #fdfdfd;
+}
+.nav-item > .nav-link > .logged-in
+{
+    padding-left: 5px;
+    color: #1a1a1a;
+}
+.logged-in:hover
+{
+    color: white;
+}
+.Link
+{
+    color: #1a1a1a;
+    text-decoration: none;
+}
+.navbar-nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div > ul
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.navbar-collapse > ul > li
+{
+    display:block;
+    justify-content: center;
+}
+.collapse > ul > li
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header 
+{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+}
+.main-caption
+{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Budget-Analysis
+{
+    border: solid 2px #202020;
+    border-radius: 25px;
+    padding: 3px 9px;
+}
+
+
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #2E3A32;
+    --bs-btn-border-color: #2E3A32;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #2E3A32;
+    --bs-btn-hover-border-color: #2E3A32;
+    --bs-btn-focus-shadow-rgb: 60,153,110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #2E3A32;
+    --bs-btn-active-border-color: #2E3A32;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #2E3A32;
+    --bs-btn-disabled-border-color: #2E3A32;
+}
+.nav-LOGGED-IN {
+    background-color: #2E3A32;
+    border-radius: 12px;
+}
+.dropdown
+{
+    background-color: none;
+    border-radius: 12px;
+}
+/* .nest-profile-logout
+{
+    display: flex;
+    justify-content: center;
+} */
+
+
+span .span{
+    color: hsl(0, 0%, 28%);
+    font-weight: bold!important;
+    font-family: monospace;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+span .span{
+    background: linear-gradient(to right, hsl(0, 0%, 26%) 0, hsl(0, 1%, 73%) 30%, hsl(30, 1%, 27%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 45s infinite linear;
+}
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+
+  .span-h1 .span {
+    transition: 0.5s ease-out;
+  }
+  .span-h1:hover .span:nth-child(1) {
+    margin-right: 5px;
+  }
+  .span-h1:hover .span:nth-child(2):after {
+    content: " Admin";
+  }
+  .span-h1:hover .span:nth-child(2) {
+    margin-left: 3px;
+  }
+  .span-h1:hover .span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #6c4706, 0 0 40px #fff;
+  }
+
+  
+  span .user{
+    color: hsl(0, 0%, 28%);
+    font-weight: bold!important;
+    font-family: monospace;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+span .user{
+    background: linear-gradient(to right, hsl(0, 0%, 26%) 0, hsl(0, 1%, 73%) 30%, hsl(30, 1%, 27%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 45s infinite linear;
+}
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+
+  .span-h1 .user {
+    transition: 0.5s ease-out;
+  }
+  .span-h1:hover .user:nth-child(1) {
+    margin-right: 5px;
+  }
+  /* .span-h1:hover .user:nth-child(1):after {
+    content: "  User Page";
+  } */
+  .span-h1:hover .user:nth-child(2) {
+    margin-left: 3px;
+  }
+  .span-h1:hover .user {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #6c4706, 0 0 40px #fff;
+  }
+
+@media screen and (max-width:991px) {
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+}
+
+
+
+/* =================== */
+
+.span-h1 .span,
+.span-h1 .user
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

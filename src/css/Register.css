@@ -1,0 +1,162 @@
+
+
+.body-login,
+.input-login,
+.button-login {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.body-login {
+  color: hsl(0, 0%, 0%);
+  background: #ffffff;
+}
+
+.input-login,
+.button-login {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== LOGIN ===============*/
+.loginlogin {
+  position: relative;
+  display: grid;
+  align-items: center;
+}
+.login__img {
+  position: absolute;
+  top: -100px;
+  width: 100%;
+  height: 110vh;
+  object-fit: cover;
+  object-position: center;
+}
+.login__formlogin {
+  margin-bottom: 2em;
+  position: relative;
+  background-color: hsla(0, 0%, 10%, 0.1);
+  border: 2px solid hsl(0, 0%, 100%);
+  margin-inline: 1.5rem;
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(8px);
+}
+.login__title {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.login__content, .login__box {
+  display: grid;
+}
+.login__content {
+  row-gap: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+.login__box {
+  grid-template-columns: max-content 1fr;
+  align-items: center;
+  column-gap: 0.75rem;
+  border-bottom: 2px solid hsl(0, 0%, 100%);
+}
+.login__icon, .login__eye {
+  font-size: 1.25rem;
+}
+
+.login__box-input {
+  position: relative;
+}
+
+.login__eye {
+  position: absolute;
+  right: 0;
+  top: 18px;
+  z-index: 10;
+  cursor: pointer;
+}
+.login__box:nth-child(2) .input-login {
+  padding-right: 1.8rem;
+}
+.login__check, .login__check-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login__check {
+  margin-bottom: 1.5rem;
+}
+.login__check-label, .login__forgotlogin, .login__registerlogin {
+  font-size: .813rem;
+}
+.login__check-group {
+  column-gap: 0.5rem;
+}
+.login__check-input {
+  width: 16px;
+  height: 16px;
+}
+.login__forgotlogin {
+  color: hsl(0, 0%, 100%);
+}
+.login__forgotlogin:hover {
+  text-decoration: underline;
+}
+.login__buttonlogin {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+
+
+/* Input focus move up label */
+.login__input:focus + .login__label {
+  top: -12px;
+  font-size: .813rem;
+}
+
+/* Input focus sticky top label */
+.login__input:not(:placeholder-shown).login__input:not(:focus) + .login__label {
+  top: -12px;
+  font-size: .813rem;
+}
+.confirm-password
+{
+  color: red;
+  justify-content: center;
+}
+.confirm-pass-center
+{
+  text-align: center;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 576px) {
+  .loginlogin {
+    justify-content: center;
+  }
+  .login__formlogin {
+    width: 432px;
+    padding: 4rem 3rem 3.5rem;
+    border-radius: 1.5rem;
+  }
+  .login__title {
+    font-size: 2rem;
+  }
+}
