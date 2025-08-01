@@ -49,10 +49,10 @@ const LoginHandling = () => {
 
     return (
       <body className='body-login'>
-        <div className="loginlogin">
-          {/* <img src={bslo} alt="login image" className="login_img" /> */}
+        <div className="loginlogin" >
+          {/* {/* <img src={bslo} alt="login image" className="login_img" /> */}
 
-          <form onSubmit={handleLogin} className="login__formlogin">
+          <form onSubmit={handleLogin} className="login__formlogin" style={{ backgroundColor: '#00000070' }}>
               <h1 className="login__title"><b>Trip Wallet</b></h1>
 
               <div className="login__content">

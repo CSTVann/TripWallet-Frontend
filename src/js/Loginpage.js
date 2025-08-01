@@ -16,7 +16,7 @@ const Register_Form = () => {
     }, []);
     return (
         <>
-            <img src={bslo} alt="login image" className="login_img" />
+            {/* <img src={bslo} alt="login image" className="login_img" /> */}
             <Menu />
             <Login />
         </>
