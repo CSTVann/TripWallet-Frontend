@@ -24,7 +24,7 @@ const Home = () => {
           <div width="100%">
             <Banner />
           </div>
-          <BudgetAnalyzer/>
+          {/* <BudgetAnalyzer/> */}
           <Category />
           {/* <Show_Place_Province /> */}
           <Footer_menu />

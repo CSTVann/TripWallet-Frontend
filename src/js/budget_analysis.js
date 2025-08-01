@@ -11,7 +11,7 @@ const BudgetAnalysis = () => {
       <div>
           <Menu />
           <body>
-            <BudgetAnalyzer/>
+            {/* <BudgetAnalyzer/> */}
             <Category />
             <Show_Place_Province />
             <Footer_menu />
